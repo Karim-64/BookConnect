@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Books</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="my_books.css">
+</head>
+<body>
+  
+  <nav class="nav">
+        <div class="empty"></div>
+        <div><a  href="https://www.goodreads.com/" > <img src="../LibraryFrontEnd/Pictures/logo.png" id="logo"> </a></div>
+        <div ><a class="bar"href="">Home</a></div>
+        <div ><a class="bar" href="">My Books</a></div>
+        <div ><a class="bar" href="">Browse</a></div>
+        <div ><a class="bar" href="">Community</a></div>
+        <div ><input type="text" placeholder="Search Books" size="40" class="search" ></div>
+
+        <!-- <div><a><img src=""></a></div>
+        <div><a><img src=""></a></div>
+        <div><a><img src=""></a></div> -->
+
+        <div class="profile"><a href="https://www.goodreads.com/user/show/194460276-abanoub-ayaad"><img src="../LibraryFrontEnd/Pictures/Abanoub.jpg" ></a></div>
+        <div class="empty"></div>
+  </nav>
+    <br>
+  <div class="wrap" id="app">
+    <header class="page-header" role="banner" aria-label="Page header">
+      <div class="page-meta">
+        <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+          <div>
+            <div class="page-title">My Books</div>
+            <div class="page-subtitle">Track your reading journey</div>
+          </div>
+        </div>
+
+        <div class="stats-row" aria-hidden="true">
+          <div class="stat"><strong>145</strong> Books Read</div>
+          <div class="stat"><strong>32</strong> Currently Reading</div>
+          <div class="stat"><strong>18</strong> Want to Read</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <aside class="sidebar" aria-label="Sidebar">
+        <div class="card" id="shelvesCard">
+          <h3>My Bookshelves</h3>
+          <ul class="shelf-list" id="shelfList">
+            <li class="active" data-shelf="all">All Books</li>
+            <li data-shelf="read">Read</li>
+            <li data-shelf="currently-reading">Currently Reading</li>
+            <li data-shelf="to-read">Want to Read</li>
+            <li data-shelf="favorites">Favorites</li>
+          </ul>
+        </div>
+
+        <div class="card" id="activityCard">
+          <h3>Recent Activity</h3>
+          <div class="activity-list" id="activityList">
+            <div class="activity-item">
+              <div class="book-cover-small">
+                <img src="https://covers.openlibrary.org/b/id/8231856-L.jpg" alt="Frankenstein cover">
+              </div>
+              <div class="activity-meta">
+                <strong>You finished reading</strong>
+                <span>Frankenstein</span>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="book-cover-small">
+                <img src="https://covers.openlibrary.org/b/id/7222246-L.jpg" alt="1984 cover">
+              </div>
+              <div class="activity-meta">
+                <strong>You rated</strong>
+                <span>1984 - 5 stars</span>
+              </div>
+            </div>
+            <div class="activity-item">
+              <div class="book-cover-small">
+                <img src="https://covers.openlibrary.org/b/id/8231991-L.jpg" alt="To the Lighthouse cover">
+              </div>
+              <div class="activity-meta">
+                <strong>You started reading</strong>
+                <span>To the Lighthouse</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card" id="statsCard">
+          <h3>Reading Stats</h3>
+          <div class="stats-row" style="flex-direction: column; align-items: flex-start; gap: 8px;">
+            <div class="stat"><strong>12</strong> Books this year</div>
+            <div class="stat"><strong>4,328</strong> Pages read</div>
+            <div class="stat"><strong>3.8</strong> Average rating</div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="main-content" id="mainColumn">
+        <h2 class="section-title" id="sectionTitle">All Books</h2>
+
+        <div class="books-table-container">
+          <table class="books-table" aria-describedby="sectionTitle">
+            <thead>
+              <tr>
+                <th scope="col">Book</th>
+                <th scope="col">Author</th>
+                <th scope="col">My Rating</th>
+                <th scope="col">Date Read</th>
+                <th scope="col">Bookshelf</th>
+              </tr>
+            </thead>
+            <tbody id="booksTableBody">
+              <!-- Books will be populated here -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="my_books.js"></script>
+</body>
+</html>
