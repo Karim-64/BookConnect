@@ -1,0 +1,86 @@
+
+
+html{
+    height: 500px;
+    background-color: rgb(226, 82, 82);
+}
+
+body{
+    
+    text-align: center; 
+    width: 300px;
+    /* justify-content: center; */
+    margin-left: 650px ;
+    
+    
+    
+}
+.inputs{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+.text_input{
+     width: 250px;
+     padding: 10px 15px;
+      border: 2px solid gray;
+      background-color: rgb(231, 236, 241);
+      border-radius: 20px;
+      outline: none;
+      font-size: 16px;
+      margin-bottom: 5px;
+      
+     /* transition: all 0.3s ease; */
+}
+.label {
+    color: rgb(43, 39, 39);
+    font-size: 15px;
+    
+}
+.logo{
+    width:300px;
+    position: relative;
+    top: 20px;
+    border-radius: 25px;
+    
+}
+.submission{
+    width: 290px;
+    padding: 10px 15px;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top:30px;
+    
+}
+.submission:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+.sign_in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign_in a{
+    text-decoration:underline;
+    padding: 5px 10px;
+    border: 2px solid black;
+    background-color: rgb(196, 186, 186);
+    color: black;
+    font-size: 20px;
+    
+}
+
+.signed:hover{
+    background-color: rgb(140, 122, 122);
+    color: white;
+}
+
+
