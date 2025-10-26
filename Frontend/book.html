@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Details</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="bookDetails" style="padding: 40px;"></div>
+
+  <script src="assets/js/my_books.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = parseInt(params.get('id'));
+    const book = books.find(b => b.id === id);
+
+    if (book) {
+      document.getElementById('bookDetails').innerHTML = `
+        <h1>${book.title}</h1>
+        <img src="${book.cover}" alt="${book.title}" style="width:150px;height:auto;margin-top:10px;">
+        <p><strong>Author:</strong> ${book.author}</p>
+        <p><strong>Rating:</strong> ${book.rating}/5</p>
+        <p><strong>Date Read:</strong> ${book.dateRead || '—'}</p>
+        <p><strong>Shelves:</strong> ${book.shelves.join(', ')}</p>
+      `;
+    } else {
+      document.getElementById('bookDetails').innerText = "Book not found.";
+    }
+  </script>
+</body>
+</html>
