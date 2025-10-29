@@ -1,31 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Book Details</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Title - BookConnect</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/globalandbook.css">
+  <link rel="stylesheet" href="assets/css/book.css">
 </head>
+
 <body>
-  <div id="bookDetails" style="padding: 40px;"></div>
+  <!-- ✅ Navbar -->
+  <nav class="nav">
+    <div class="empty"></div>
+    <div><a href="index.html"><img src="assets/images/logo.png" id="logo" alt="BookConnect Logo"></a></div>
+    <div><a class="bar" href="index.html">Home</a></div>
+    <div><a class="bar" href="my_books.html">My Books</a></div>
+    <div><a class="bar" href="browse.html">Browse</a></div>
+    <div><a class="bar" href="community.html">Community</a></div>
+    <div><input type="text" placeholder="Search Books" size="40" class="search"></div>
+    <div class="profile"><a href="profile.html"><img src="assets/images/Abanoub.jpg" alt="User Profile"></a></div>
+    <div class="empty"></div>
+  </nav>
 
-  <script src="assets/js/my_books.js"></script>
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const id = parseInt(params.get('id'));
-    const book = books.find(b => b.id === id);
+  <!-- ✅ Main Book Section -->
+  <div class="wrap" id="book-page">
+    <div class="book-header">
+      <div class="book-cover">
+        <img src="https://covers.openlibrary.org/b/id/8231856-L.jpg" alt="Frankenstein">
+      </div>
 
-    if (book) {
-      document.getElementById('bookDetails').innerHTML = `
-        <h1>${book.title}</h1>
-        <img src="${book.cover}" alt="${book.title}" style="width:150px;height:auto;margin-top:10px;">
-        <p><strong>Author:</strong> ${book.author}</p>
-        <p><strong>Rating:</strong> ${book.rating}/5</p>
-        <p><strong>Date Read:</strong> ${book.dateRead || '—'}</p>
-        <p><strong>Shelves:</strong> ${book.shelves.join(', ')}</p>
-      `;
-    } else {
-      document.getElementById('bookDetails').innerText = "Book not found.";
-    }
-  </script>
+      <div class="book-info">
+        <h1 class="book-title">Frankenstein</h1>
+        <h3 class="book-author">by Mary Shelley</h3>
+
+        <div class="book-meta">
+          <div class="rating">
+            <span id="avgRating" class="stars"></span>
+            <span class="rating-text">(4.12 · 1,230,842 ratings · 32,105 reviews)</span>
+          </div>
+          <div class="book-details">
+            <span>First published in 1818</span> •
+            <span>Genre: Classics, Horror</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <select id="shelfSelect" class="form-select">
+            <option value="none">Add to shelf</option>
+            <option value="currently-reading">Currently Reading</option>
+            <option value="read">Read</option>
+            <option value="to-read">Want to Read</option>
+          </select>
+
+          <div class="user-rating">
+            <span>Your Rating:</span>
+            <div id="userStars" class="stars"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ Book Description -->
+    <div class="book-description">
+      <h2>Book Description</h2>
+      <p id="bookDesc">
+        "Frankenstein" is a classic gothic novel written by Mary Shelley, 
+        exploring themes of human ambition, creation, and responsibility. 
+        It tells the story of Victor Frankenstein, a scientist who creates a 
+        sentient creature, only to be horrified by his own creation.
+      </p>
+      <button id="toggleDesc" class="btn btn-link p-0">Show more</button>
+    </div>
+
+    <!-- ✅ Community Reviews -->
+    <div class="book-reviews">
+      <h2>Community Reviews</h2>
+      <div id="reviewsContainer" class="reviews-list">
+        <!-- Loaded dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Footer -->
+  <footer class="gr-footer">
+    <div class="container">
+      <hr style="border-top: 1px solid #ddd;">
+      <p class="text-center small mt-3 mb-0">&copy; 2025 BookConnect, Inc.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/book.js"></script>
 </body>
 </html>
