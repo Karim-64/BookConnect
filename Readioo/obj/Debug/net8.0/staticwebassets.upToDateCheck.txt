@@ -1,0 +1,179 @@
+C:\Users\ZBook\.nuget\packages\ntoastnotify\8.0.0\contentFiles\any\net6.0\wwwroot\noty.js
+C:\Users\ZBook\.nuget\packages\ntoastnotify\8.0.0\contentFiles\any\net6.0\wwwroot\toastr.js
+wwwroot\css\book.css
+wwwroot\css\browse.css
+wwwroot\css\global.css
+wwwroot\css\globalandbook.css
+wwwroot\css\home.css
+wwwroot\css\my_books - Copy.css
+wwwroot\css\my_books.css
+wwwroot\css\profile.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\images\Abanoub.jpg
+wwwroot\images\authors\0b6f9825-0e3a-4462-b297-1bba793ffe73_William Shakespear.jpg
+wwwroot\images\authors\0cc9d0f5-e52d-4098-a85f-1c1e7283906c_William Shakespear.jpg
+wwwroot\images\authors\2a0c7d98-4373-4346-befd-2a51cd3fd2e9_غلاف_رواية_في_ممر_الفئران.jpeg
+wwwroot\images\authors\5131f888-9d75-4475-a1e1-fa283a12b5ef_charles dickens.jpg
+wwwroot\images\authors\5464ab5c-a9fb-4c1a-bc82-be433a0273b0_Ahmed Khaled Tawfik.jpg
+wwwroot\images\authors\57061198-a417-455c-9af3-09308316d5be_William Shakespear.jpg
+wwwroot\images\authors\5a882cb3-61c0-4f95-a1fc-efba10b789c9_Gemini_Generated_Image_7htka87htka87htk.png
+wwwroot\images\authors\5c09479d-96b8-4ef5-8c9b-f85b57b8388f_CSE (2).png
+wwwroot\images\authors\8274c666-48ee-479b-8f74-1602c3f8d950_charles dickens.jpg
+wwwroot\images\authors\906c1f59-7b3e-42a9-9e27-b2dae5e880a1_ernest.jpg
+wwwroot\images\authors\960f20cb-633a-451b-a410-b24d8e6219cf_J.K.-Rowling.png
+wwwroot\images\authors\b409303b-60c2-4399-90c5-eef90b6e043c_charles dickens.jpg
+wwwroot\images\authors\c3970dd0-98fe-471a-baf8-99fd487fd528_charles dickens.jpg
+wwwroot\images\authors\d7b02f97-34d7-4255-b5b7-4d4756b74fda_William Shakespear.jpg
+wwwroot\images\authors\f28d979b-dd57-40b2-898e-74ab077e5382_ernest.jpg
+wwwroot\images\authors\f33c54b3-0ce4-4745-b92d-2821dcfcd38d_Suzzane Collins.jpg
+wwwroot\images\authors\f64eebc8-bf8f-4931-8f12-eab929bc4627_J.K.-Rowling.png
+wwwroot\images\authors\f84b5168-7b8c-42aa-a90d-8b26a336e1b2_charles dickens.jpg
+wwwroot\images\authors\fa833a9c-9a03-41fb-8a56-e7232cf43ac4_William Shakespear.jpg
+wwwroot\images\authors352d94c3-4197-47da-9f8b-0660b162e9fa_charles dickens.jpg
+wwwroot\images\authors54186d3e-a3ba-45e1-94e9-7af0316f6a9b_charles dickens.jpg
+wwwroot\images\authors78b25ce9-5604-49e0-ad32-80cbb4c7ba11_charles dickens.jpg
+wwwroot\images\Bad Reads logo.jpg
+wwwroot\images\books\037dcb60-6131-4719-aff8-5ceb4d7c1a20_senga.jpg
+wwwroot\images\books\04dfe45c-edb3-4579-8843-2a28aae4bd1c_916RAIVJSBL._AC_UF1000,1000_QL80_.jpg
+wwwroot\images\books\053a153c-1647-4f27-903f-e1e0c2bfd89f_2767052.jpg
+wwwroot\images\books\0a8777db-15d1-417b-a466-76c50ab3961a_like Icarus.jpg
+wwwroot\images\books\1671f733-21e9-409a-8420-f320f7580c02_like Icarus.jpg
+wwwroot\images\books\1ad1beee-58d5-4096-8f2b-bfc1629bb133_senga.jpg
+wwwroot\images\books\1c3e37a2-39e7-425f-a9e1-82999bfce8a8_CSE (2).png
+wwwroot\images\books\1c768adf-1cef-498c-bf14-5f85bee53981_download (1).jfif
+wwwroot\images\books\1c89f11d-c329-435d-b5aa-7abef9043a80_great expectations.jpg
+wwwroot\images\books\1ef710fd-80cd-4599-96e6-0241400aec8d_916RAIVJSBL._AC_UF1000,1000_QL80_.jpg
+wwwroot\images\books\2047ba52-c3cf-4cf2-bfc1-78c2e7988432_like Icarus.jpg
+wwwroot\images\books\27baef65-78e5-4eb3-bfc7-fe22a14ead3b_great expectations.jpg
+wwwroot\images\books\2d29d619-f3e0-43bb-99b2-006b28e4f3a2_2767052.jpg
+wwwroot\images\books\3a4f1507-a087-466b-aca9-38d2b211392c_CSE (2).png
+wwwroot\images\books\3c4ac7ab-9203-4c5c-b72a-cd4df3f2b23f_device1.jpg
+wwwroot\images\books\3d056c36-c18e-4ba8-bc5d-c80c7121f22c_download.jfif
+wwwroot\images\books\45d3406b-f301-4587-8663-d36fd00e6a12_the chimest.jpg
+wwwroot\images\books\492f4060-2341-45d6-8119-6c29569d6bbf_sun also rises.jpg
+wwwroot\images\books\49d86dec-5f91-4c10-ad40-9c79cd63b3bd_ABC.jpg
+wwwroot\images\books\5741e27c-28b8-44dc-bdf6-b2de4e533b08_download.jfif
+wwwroot\images\books\5804dc1b-67e1-4c24-9836-8d5f9baaabe4_Screenshot 2025-09-07 193424.png
+wwwroot\images\books\5df005c7-fb28-4839-abbb-17c8da0963b6_Suzzane Collins.jpg
+wwwroot\images\books\612ed2a9-a6ec-4a52-85ec-8a76f226eca7_download.jpg
+wwwroot\images\books\62e7f453-3eaf-4094-9f81-1ec4cafb7f98_Untitled design (2).png
+wwwroot\images\books\69394856-da4b-40fe-af68-c905a3ab1a82_great expectations.jpg
+wwwroot\images\books\6dada733-9699-4c16-a8d7-e9985b2cf3c7_CSE (2).png
+wwwroot\images\books\7850b439-3f21-495e-baec-bcf4b4aad648_great expectations.jpg
+wwwroot\images\books\786a1375-67a8-44b2-a0e0-dce2557329f5_download.jpg
+wwwroot\images\books\797367bc-876d-4cae-929c-24afac6ae33a_2767052.jpg
+wwwroot\images\books\7ba7621d-1ff4-46d9-9a9d-fcf3407a1399_great expectations.jpg
+wwwroot\images\books\7fb7614b-37f5-4f1c-8211-7083df7203e9_great expectations.jpg
+wwwroot\images\books\82de7b7f-e644-4674-9175-15ba685334c6_the chimest.jpg
+wwwroot\images\books\834ef694-8914-42d1-8c62-9a8e7846e4fd_great expectations.jpg
+wwwroot\images\books\838662f2-1e2d-4c43-a7da-b03dc423d36e_great expectations.jpg
+wwwroot\images\books\8388ca2a-f74d-4d31-9d88-b828f0003d08_sun also rises.jpg
+wwwroot\images\books\876a21ba-14ed-4b53-946f-ca98d128013d_download (1).jfif
+wwwroot\images\books\8a922b13-3fc8-4786-b7d5-17b40047398b_Utopia_(Tawfik_novel).jpg
+wwwroot\images\books\8add926d-f8ec-479d-8e8a-fd83adc2c187_great expectations.jpg
+wwwroot\images\books\8bf6a995-69ba-4e93-ad46-fdc965e44f8d_hamlet.jpg
+wwwroot\images\books\a4c6dd75-444e-4d89-9bdf-a68f6503275d_great expectations.jpg
+wwwroot\images\books\a80639ee-03e1-40a1-a440-4ffd79c193a4_da776bef-0de9-41c9-953e-330c818d9da4_hamlet.jpg
+wwwroot\images\books\af1b25ce-e290-469c-afb4-ab378c40653f_great expectations.jpg
+wwwroot\images\books\af24c803-2dd5-49f0-beec-3f95c9a1fae3_the chimest.jpg
+wwwroot\images\books\b05fb8e8-0a8e-4fb8-96a7-6503c5f8bfa6_شابيب.jpg
+wwwroot\images\books\b5cf98c9-e295-4bc6-a85e-42fc6c8ba7a2_916RAIVJSBL._AC_UF1000,1000_QL80_.jpg
+wwwroot\images\books\b96df81e-8bc6-4c9a-afb3-6857d2402e91_Utopia_(Tawfik_novel).jpg
+wwwroot\images\books\ba44c014-7b95-44c3-845e-33071578b17b_great expectations.jpg
+wwwroot\images\books\bf7437af-fa07-471c-b29b-10cf9800db4c_device1.jpg
+wwwroot\images\books\c855887a-6f4c-48cf-aa0d-0cc8e82a8b3b_great gatsby.png
+wwwroot\images\books\ca92cbe3-c23f-4c2f-bb60-75a919b2ffe5_Untitled design (2).png
+wwwroot\images\books\cadf9fcf-c56f-4d0f-9653-7b46d4d9c92d_CSE (2).png
+wwwroot\images\books\ce991ec6-6e2e-4305-b63b-82502a1f21f8_great expectations.jpg
+wwwroot\images\books\d1d345ce-8ef7-44d4-bb91-04b236b05e18_great expectations.jpg
+wwwroot\images\books\d418d76e-a1fa-49af-b8c4-59ccf12ae8ff_download (1).jfif
+wwwroot\images\books\d855f4ba-2aba-4940-8e13-627433dbad2b_great gatsby.png
+wwwroot\images\books\da776bef-0de9-41c9-953e-330c818d9da4_hamlet.jpg
+wwwroot\images\books\dc47cca2-b97d-490f-9ba8-853447ca0a3a_the chimest.jpg
+wwwroot\images\books\dd0f3309-63c6-41d5-aef5-caaf3d9a0dfc_great expectations.jpg
+wwwroot\images\books\e1ef661e-c1c3-40b7-ae42-ccd6057dcca4_غلاف_رواية_في_ممر_الفئران.jpeg
+wwwroot\images\books\e3d1f70b-4b19-45b5-bbd8-75c93c4f03c0_great expectations.jpg
+wwwroot\images\books\e47ed1aa-88b6-47fd-b1e1-331fac5c51d2_download.jfif
+wwwroot\images\books\e60b1425-267b-4db8-89ec-cc13a95d16b5_غلاف_رواية_في_ممر_الفئران.jpeg
+wwwroot\images\books\e698abc9-95c2-489b-8f7f-290004af48f4_شابيب.jpg
+wwwroot\images\books\e809eb6c-1a03-4b97-ae2e-a56a9ddccb3e_2767052.jpg
+wwwroot\images\books\ec1e0ab2-a152-4bfd-8466-80c7b59b712e_great expectations.jpg
+wwwroot\images\books\ede5e0ad-912f-41f3-a196-ecc7962cfbcf_great expectations.jpg
+wwwroot\images\books\efef2bac-7b81-4bc6-9628-a880824204fb_download (1).jfif
+wwwroot\images\books\f74ef8a5-c86e-44af-a6f7-d3631b3ca88f_download (1).jfif
+wwwroot\images\books\f93e932c-d9f4-4817-a114-b197ab8cc1be_great expectations.jpg
+wwwroot\images\books\f9a3a7d9-2139-434c-a152-01805ac412ce_great expectations.jpg
+wwwroot\images\books\fddf9af8-b097-45b3-8e00-cfcd17c8674e_hamlet.jpg
+wwwroot\images\books\fea4dcc3-3614-4e42-b9f4-477106c8dcf9_great expectations.jpg
+wwwroot\images\books42e3fe80-2c0c-4ad8-87e9-9e2c1ae41ae0_3.jpg
+wwwroot\images\books6e3019e6-d9de-4e47-9e01-7bd288da5d59_download.jpeg
+wwwroot\images\default-profile.png
+wwwroot\images\Logo.jpg
+wwwroot\images\Logo_name.jpg
+wwwroot\images\Logoo.jpg
+wwwroot\images\root@213.136.80.201
+wwwroot\js\book.js
+wwwroot\js\browse.js
+wwwroot\js\home.js
+wwwroot\js\main.js
+wwwroot\js\my_books.js
+wwwroot\js\profile.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

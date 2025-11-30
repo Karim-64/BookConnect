@@ -1,0 +1,124 @@
+﻿using Demo.DataAccess.Repositories.UoW;
+using Readioo.Business.DataTransferObjects.Author;
+using Readioo.Business.DataTransferObjects.Book;
+using Readioo.Business.DataTransferObjects.Genre;
+using Readioo.Business.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Readioo.Models;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Readioo.Business.Services.Classes
+{
+    public class GenreService : IGenreService
+    {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public GenreService(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
+        // Get all books for a specific genre
+        public List<BookDto> GetBooksByGenre(int genreId)
+        {
+            var genre = _unitOfWork.GenreRepository
+                .GetAllQueryable()
+                .Include(g => g.BookGenres)
+                    .ThenInclude(bg => bg.Book)
+                        .ThenInclude(b => b.Author)
+                .FirstOrDefault(g => g.Id == genreId);
+
+            if (genre == null)
+            {
+                return new List<BookDto>();
+            }
+
+            return genre.BookGenres
+                .Select(bg => new BookDto
+                {
+                    BookId = bg.Book.Id,
+                    Title = bg.Book.Title,
+                    Isbn = bg.Book.Isbn,
+                    Language = bg.Book.Language,
+                    AuthorName = bg.Book.Author.FullName,
+                    PagesCount = bg.Book.PagesCount,
+                    PublishDate = bg.Book.PublishDate,
+                    Description = bg.Book.Description,
+                    Rate = bg.Book.Rate,
+                    BookImage = bg.Book.BookImage
+                })
+                .ToList();
+        }
+
+        // Get genre by id
+        public GenreDetailsDto GetGenreById(int id)
+        {
+            var genre = _unitOfWork.GenreRepository
+                .GetAllQueryable()
+                .Include(g => g.BookGenres)
+                    .ThenInclude(bg => bg.Book)
+                        .ThenInclude(b => b.Author)
+                .FirstOrDefault(g => g.Id == id);
+
+            if (genre == null) return null;
+
+            // Map books
+            var books = genre.BookGenres
+                .Select(bg => new BookDto
+                {
+                    BookId = bg.Book.Id,
+                    Title = bg.Book.Title,
+                    Isbn = bg.Book.Isbn,
+                    Language = bg.Book.Language,
+                    AuthorName = bg.Book.Author.FullName,
+                    PagesCount = bg.Book.PagesCount,
+                    PublishDate = bg.Book.PublishDate,
+                    Description = bg.Book.Description,
+                    Rate = bg.Book.Rate,
+                    BookImage = bg.Book.BookImage
+                })
+                .ToList();
+
+            // Get unique authors from books in this genre
+            var authors = genre.BookGenres //This gets all BookGenre entries for this genre
+                .Select(bg => bg.Book.Author) //This selects the Author of each Book
+                .Distinct() // Only unique authors
+                .Select(a => new AuthorDto
+                {
+                    AuthorId = a.Id,
+                    FullName = a.FullName,
+                    Bio = a.Bio,
+                    BirthDate = a.BirthDate,
+                    DeathDate = a.DeathDate,
+                    BirthCity = a.BirthCity,
+                    BirthCountry = a.BirthCountry,
+                    AuthorImage = a.AuthorImage
+                })
+                .ToList(); 
+
+            return new GenreDetailsDto
+            {
+                Id = genre.Id,
+                GenreName = genre.GenreName,
+                Description = genre.Description,
+                Books = books,
+                Authors = authors
+            };
+        }
+
+        // Get all genres
+        public List<GenreDto> GetAllGenres()
+        {
+            return _unitOfWork.GenreRepository
+                .GetAll()
+                .Select(g => new GenreDto
+                {
+                    Id = g.Id,
+                    GenreName = g.GenreName,
+                    Description = g.Description
+                })
+                .ToList();
+        }
+    }
+}

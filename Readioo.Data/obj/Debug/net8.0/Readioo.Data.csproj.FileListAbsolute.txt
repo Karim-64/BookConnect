@@ -1,0 +1,15 @@
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\bin\Debug\net8.0\Readioo.Data.deps.json
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\bin\Debug\net8.0\Readioo.Data.runtimeconfig.json
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\bin\Debug\net8.0\Readioo.Data.dll
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\bin\Debug\net8.0\Readioo.Data.pdb
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.csproj.AssemblyReference.cache
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.AssemblyInfoInputs.cache
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.AssemblyInfo.cs
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.csproj.CoreCompileInputs.cache
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.sourcelink.json
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.dll
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\refint\Readioo.Data.dll
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.pdb
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\Readioo.Data.genruntimeconfig.cache
+C:\Users\ZBook\source\repos\Readioo\Readioo.Data\obj\Debug\net8.0\ref\Readioo.Data.dll
